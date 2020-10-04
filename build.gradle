@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation "org.apache.commons:commons-lang3:3.11"
+}
+
+mainClassName = 'App'
+jar {
+    manifest {
+        attributes 'Main-Class': "App"
+    }
+    from configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+}
