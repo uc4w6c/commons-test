@@ -8,6 +8,7 @@ public class ChompTry {
         System.out.println(StringUtils.chomp("abc\r")); // "\r"が削除される
         System.out.println(StringUtils.chomp("abc\r\n")); // "\r\n"が削除される
         System.out.println(StringUtils.chomp("abc\r\n\r\n")); // "\r\n"が1つだけ削除される
+
         System.out.println("End");
     }
 }

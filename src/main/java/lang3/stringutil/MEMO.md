@@ -14,3 +14,13 @@ StringUtils.abbreviate("abcdefg", 4)
 
 ## chomp
 末尾の改行コードが削除される
+
+## chop
+末尾1文字を削除
+
+## compare
+文字列比較を行う
+`compareIgnoreCase`を利用することで大文字・小文字を判別せず比較可能
+
+## contains
+第二引数に指定した文字列が第一引数に含まれている場合は trueを返却
