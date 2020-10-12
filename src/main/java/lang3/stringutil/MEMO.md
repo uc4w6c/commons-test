@@ -24,3 +24,13 @@ StringUtils.abbreviate("abcdefg", 4)
 
 ## contains
 第二引数に指定した文字列が第一引数に含まれている場合は trueを返却
+
+### containsAny
+第二引数に指定した文字列内の文字が1文字でも第一引数に含まれている場合は trueを返却
+### containsNone
+containsAnyの逆
+第二引数に指定した文字列内の文字が1文字でも第一引数に含まれている場合は falseを返却
+### containsOnly
+第一引数に指定した文字列内の文字がのみで第二引数に構成されている場合は trueを返却
+### containsWhitespace
+引数に指定した文字列の中にスペースが含まれている場合は trueを返却
