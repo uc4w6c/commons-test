@@ -65,4 +65,24 @@ containsAnyの逆
 第一引数と第二引数に指定した文字列を比較する。nullもチェック可能
 関連メソッド: equalsAny, equalsAnyIgnoreCase, equalsIgnoreCase
 
+## firstNonBlank, firstNonEmpty
+引数に指定した文字列の中から一番最初にBalnk, Emptyではない文字を返却する
 
+## getBytes
+指定した引数のバイト配列を取得する
+
+## getCommonPrefix
+指定した引数全てで共通する先頭文字列を返却する
+
+## getDigits
+指定した引数の文字列から数値部分のみを返却する
+
+## getIfBlank, getIfEmpty
+第一引数に指定した値がBlank, Emptyの場合、第二引数に指定した関数を実行する
+
+## indexOf
+第二引数に指定した文字列が第一引数の何個目にあるかを返却する
+### indexOfAnyBut
+第二引数に指定した文字列配列が含まれない文字が第一引数の何番目に存在するか返却
+### indexOfDifference
+引数に指定した文字列配列をそれぞれ比較し、差異が発生するか文字が何番目か返却
