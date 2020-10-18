@@ -86,3 +86,21 @@ containsAnyの逆
 第二引数に指定した文字列配列が含まれない文字が第一引数の何番目に存在するか返却
 ### indexOfDifference
 引数に指定した文字列配列をそれぞれ比較し、差異が発生するか文字が何番目か返却
+
+## isAlpha
+引数に指定した文字列がアルファベットのみの場合 trueを返却
+isAlphanumeric, isAlphaSpace, isAlphanumericSpace
+アルファベットと数値とスペースだけの時trueを返却
+
+## isMixedCase
+引数に指定した文字列に大文字小文字が混在している場合は trueを返却
+
+## isNumeric
+引数に指定した文字列が数値型であれば trueを返却
+isNumericSpace, isWhitespaceでは、spaceが入っていても trueにする。
+
+## join
+第一引数に指定した文字列を第二引数で指定した文字列で区切って連結し出力する
+### joinWith
+第二引数の指定した文字列を第一引数に指定した文字列で区切って連結し出力する
+
