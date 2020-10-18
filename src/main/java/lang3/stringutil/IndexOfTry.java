@@ -29,5 +29,9 @@ public class IndexOfTry {
         System.out.println(StringUtils.indexOf("abc", "A"));  // -1
         System.out.println(StringUtils.indexOfIgnoreCase("abc", "A"));  // 0
         System.out.println("indexOfIgnoreCase End");
+
+        System.out.println("lastIndexOf Start");
+        System.out.println(StringUtils.lastIndexOf("abcabc", "a"));  // 3
+        System.out.println("lastIndexOf End");
     }
 }
