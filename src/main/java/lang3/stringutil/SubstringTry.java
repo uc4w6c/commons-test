@@ -27,6 +27,8 @@ public class SubstringTry {
         System.out.println(StringUtils.substringBetween("abcdefabc", "abc"));       // def
         System.out.println(StringUtils.substringBetween("abcdefabc", "def"));       // null
         System.out.println(StringUtils.substringBetween("abcdefabcghiabc", "abc")); // def
+        System.out.println(StringUtils.substringBetween("abcd", "abc"));       // null
+        System.out.println(StringUtils.substringBetween("abcabc", "abc"));       // ""
         System.out.println("substringBetween End");
     }
 }
