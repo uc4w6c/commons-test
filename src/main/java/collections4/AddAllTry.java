@@ -12,6 +12,10 @@ public class AddAllTry {
         CollectionUtils.addAll(test1, new String[] { "bbb", "ccc" });
         test1.forEach(System.out::println);
 
-        
+        List<String> test2 = new ArrayList<String>();
+        CollectionUtils.addAll(test2, test1);
+        test2.forEach(System.out::println);
+
     }
+
 }
