@@ -11,4 +11,15 @@
 ## containsAll
 第二引数に指定した値が全て第一引数に存在すればtrueを返却
 
+## disjunction
+第一引数に指定したものと第二引数に指定した値でそれぞれにしか存在しない値Listを返却
+
+## emptyCollection
+空のCollectionクラスを返却
+
+## emptyIfNull
+引数に指定したコレクションがNullなら空のコレクションを返却する
+
+## extractSingleton
+引数に指定した1つのデータリストの中から値を取り出す(Listのサイズが1ではない場合エラー)
 
