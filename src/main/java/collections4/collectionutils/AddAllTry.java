@@ -1,4 +1,4 @@
-package collections4;
+package collections4.collectionutils;
 
 import org.apache.commons.collections4.CollectionUtils;
 
